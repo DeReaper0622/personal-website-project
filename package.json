@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "deploy": "ng build --prod --base-href \"https://dereaper0622.github.io/personal-website-project/\" && ngh --dir=dist/personal-website",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
