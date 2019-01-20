@@ -16,7 +16,6 @@
   <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
   <!-- Material Design Bootstrap -->
   <!-- <link href="css/mdb.min.css" rel="stylesheet"> -->
-
   <style type="text/css">
     /* Necessary for full page carousel*/
     html,
@@ -24,17 +23,12 @@
     header,
     .view {
       height: 100%;
+      margin: 0px;
     }
-
-    /* Carousel*/
-    .carousel,
-    .carousel-item,
-    .carousel-item.active {
+    
+    #app-root {
       height: 100%;
-    }
-
-    .carousel-inner {
-      height: 100%;
+      width: 100%;
     }
 
     @media (min-width: 800px) and (max-width: 850px) {
@@ -46,7 +40,7 @@
 </head>
 
 <body>
-  <app-root></app-root>
+  <app-root id="app-root"></app-root>
 </body>
 
 </html>
