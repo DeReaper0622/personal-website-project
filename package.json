@@ -8,7 +8,8 @@
     "deploy": "ng build --prod --base-href \"https://dereaper0622.github.io/personal-website-project/\" && ngh --dir=dist/personal-website",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "doc": "ng build --prod --output-path docs --base-href \"https://yangsan0622.github.io/personal-website-project/\""
   },
   "private": true,
   "dependencies": {
