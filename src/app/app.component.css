@@ -2,23 +2,23 @@
 @import "../assets/css/mdb.css";
 @import "../assets/css/mdb.lite.css";
 @import "../assets/css/style.css";
-
-.view
-{
-    background-image: url('https://cdn.hk01.com/di/media/images/283777/org/9f552ff93dd099bcc0eb737192d18b25.png/AZdm2gsayZ039au0qEv3mtig5tJar6SavTrKYb06ymE'); 
+.view {
+    background-image: url('https://cdn.hk01.com/di/media/images/283777/org/9f552ff93dd099bcc0eb737192d18b25.png/AZdm2gsayZ039au0qEv3mtig5tJar6SavTrKYb06ymE');
     /* full height */
     height: 100%;
-
     /*TODO4: Create the parallax scrolling effect */
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
     background-size: cover;
 }
-.no-margin 
-{
+
+.no-margin {
     margin-bottom: 0px;
 }
 
-html
-{
+.no-background {
+    background-image: none !important;
+}
+
+html {
     scroll-behavior: smooth;
 }
